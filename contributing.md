@@ -3,7 +3,7 @@
 ## Tech Stack
 
 - Docker
-- [Vue.js](https://vuejs.org/
+- [Vue.js](https://vuejs.org/)
 
 ## Obtendo código e executando localmente
 
@@ -11,4 +11,4 @@
 
 2. Dentro da pasta do projeto, construa a image Docker com o comando `sh ci/compras.sh cid`
 
-3. Execute localmente o projeto com o comando `sh ci/compras.sh ic`
+3. Execute localmente o projeto com o comando `sh ci/compras.sh ic`. Após isso, é possível abrir a página em localhost:8080.
