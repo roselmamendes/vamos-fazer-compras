@@ -6,7 +6,7 @@ export default {
   data() {
     return {
       novoItem: null,
-      listaDeCompras: []
+      listaDeCompras: [{"nome": "pão"}, {"nome": "detergente"}, {"nome": "absorvente"}]
     }
   },
    created() {

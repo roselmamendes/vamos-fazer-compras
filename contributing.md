@@ -12,3 +12,17 @@
 2. Dentro da pasta do projeto, construa a image Docker com o comando `sh ci/compras.sh cid`
 
 3. Execute localmente o projeto com o comando `sh ci/compras.sh ic`. Após isso, é possível abrir a página em localhost:8080.
+
+## Look and feel
+
+*Paletas de Cores*
+
+https://www.color-hex.com/color-palette/77155
+
+*CSS*
+
+Para cada componente existe um arquivo style.css. A sintaxe é do [Sugarss](https://github.com/postcss/sugarss)
+
+Para informações sobre o pre-processors para CSS usados, cheque o arquivo webpack.config.js
+
+

@@ -1,0 +1,17 @@
+form 
+	text-align: center
+
+input
+	border-radius: unset
+	border-color: white
+	background-color: white
+	color: #101435
+	border-style: unset
+	padding: 2px
+
+button
+	border-radius: unset
+	border-color: white
+	background-color: white
+	color: #35083c
+	border-style: solid
