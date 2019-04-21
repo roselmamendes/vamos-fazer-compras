@@ -1,0 +1,3 @@
+runtime: nodejs8
+entrypoint: npm run build
+instance_class: F4_1G
