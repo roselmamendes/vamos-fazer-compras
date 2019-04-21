@@ -6,3 +6,8 @@
 h1
 	text-align: center
 	color: #35083c
+
+// Mobile
+@media (max-width: 600px)
+	.app
+		width: 100%

@@ -1,7 +1,7 @@
 <template>
 <ul id="example-1">
   <li v-for="item in listaDeCompras">
-    {{ item.nome }}
+    <input type="checkbox">{{ item.nome }}</input>
   </li>
 </ul>
 </template>

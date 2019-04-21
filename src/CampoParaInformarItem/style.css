@@ -15,3 +15,10 @@ button
 	background-color: white
 	color: #35083c
 	border-style: solid
+
+// Mobile
+@media (max-width: 600px)
+	input
+		height: 35px
+	button
+		height: 35px
