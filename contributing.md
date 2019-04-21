@@ -25,4 +25,12 @@ Para cada componente existe um arquivo style.css. A sintaxe é do [Sugarss](http
 
 Para informações sobre o pre-processors para CSS usados, cheque o arquivo webpack.config.js
 
+## Implantação
+
+O projeto usa [Google App Engine](https://cloud.google.com/appengine/).
+
+Existe um arquivo app.yaml onde especificamos as configurações para implantação.
+
+O GAE usa o comando `npm start` para implantação.
+
 
