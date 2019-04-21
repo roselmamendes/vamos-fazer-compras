@@ -1,2 +1,0 @@
-runtime: nodejs8
-entrypoint: npm run build

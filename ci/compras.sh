@@ -5,9 +5,9 @@ case "$1"
 	sudo docker build -t fazer-compras .
  ;;
  iniciar-container|ic) 
-	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras
+	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras npm run start-local
  ;;
- prod) 
+ build) 
 	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras npm run build
  ;;
  *)
