@@ -33,4 +33,14 @@ Existe um arquivo app.yaml onde especificamos as configurações para implantaç
 
 O GAE usa o comando `npm start` para implantação.
 
+## CI/CD
+
+O projeto usa o [Travis CI](https://travis-ci.org/).
+
+Para o deploy temos o arquivo com as credenciais do GCP encriptado. Para encriptar usamos o travis cli através de um container docker.
+
+Comando para encriptar o arquivo de credenciais:
+
+Construa a imagem para o travis cli com `sh ci/compras.sh build-travis-cli` e então execute `sh ci/compras.sh encripta-gae-credenciais`
+
 
