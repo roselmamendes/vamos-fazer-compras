@@ -4,7 +4,7 @@
   "description": "Salva sua lista de compras e lembra para comprar os itens.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "../node_modules/.bin/jest",
     "start-local": "../node_modules/.bin/webpack-dev-server --host 0.0.0.0 --mode development",
     "build": "../node_modules/.bin/webpack --config webpack.prod.js",
     "start": "node server.js"
@@ -27,9 +27,11 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "babel-loader": "^8.0.5",
+    "babel-jest": "^24.7.1",
     "html-webpack-plugin": "^3.2.0",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10",
+    "@vue/test-utils": "^1.0.0-beta.29",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1",
@@ -38,6 +40,7 @@
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.6.0",
     "cssnano": "^4.1.10",
-    "sugarss": "^2.0.0"
+    "sugarss": "^2.0.0",
+    "jest": "^24.7.1"
   }
 }

@@ -1,7 +1,7 @@
 
 case "$1"
  in
- constroi-imagem-docker|cid) 
+ constroi-imagem|ci) 
 	sudo docker build -t fazer-compras .
  ;;
  iniciar-container|ic) 
@@ -15,6 +15,9 @@ case "$1"
  ;;
  encripta-gae-credenciais)
 	sudo docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp travis-cli travis encrypt-file vamos-fazer-compras-40da0e7eab52.json --add
+ ;;
+ test) 
+	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras npm test
  ;;
  *)
     echo $"Usage: $0 {cid|ic|t}"
