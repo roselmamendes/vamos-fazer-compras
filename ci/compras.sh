@@ -17,7 +17,7 @@ case "$1"
 	sudo docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp travis-cli travis encrypt-file vamos-fazer-compras-40da0e7eab52.json --add
  ;;
  test) 
-	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras npm test
+	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras ../node_modules/.bin/jest
  ;;
  *)
     echo $"Usage: $0 {cid|ic|t}"

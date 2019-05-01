@@ -4,7 +4,7 @@
   "description": "Salva sua lista de compras e lembra para comprar os itens.",
   "main": "index.js",
   "scripts": {
-    "test": "../node_modules/.bin/jest",
+    "test": "jest",
     "start-local": "../node_modules/.bin/webpack-dev-server --host 0.0.0.0 --mode development",
     "build": "../node_modules/.bin/webpack --config webpack.prod.js",
     "start": "node server.js"
