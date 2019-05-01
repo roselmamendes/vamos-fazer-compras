@@ -21,7 +21,8 @@
   "homepage": "https://github.com/roselmamendes/vamos-fazer-compras#readme",
   "dependencies": {
     "vue": "^2.6.10",
-    "express": "4.16.4"
+    "express": "4.16.4",
+    "@vue/cli": "^3.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

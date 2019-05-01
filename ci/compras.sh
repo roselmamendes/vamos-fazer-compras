@@ -19,6 +19,9 @@ case "$1"
  test) 
 	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras ../node_modules/.bin/jest
  ;;
+ bash)
+	sudo docker run -it --rm -p 8080:8080 -v "$PWD":/usr/src/app -w /usr/src/app -t fazer-compras /bin/bash
+ ;;
  *)
     echo $"Usage: $0 {cid|ic|t}"
     exit 1
